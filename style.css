@@ -1,0 +1,121 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    color: #333;
+    background-color: #f8f1eb;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: #fff;
+    font-size: 2.5rem;
+}
+
+.logo {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 2rem;
+    transition: color 0.3s ease;
+    padding: 10px 15px;
+    display: blocks;
+}
+
+nav a:hover {
+    color: #f28a8a;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 100px);
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    gap: 80px;
+}
+
+.text-content {
+    max-width: 600px;
+    text-align: left;
+}
+
+.tagline {
+    color: #b78873;
+    letter-spacing: 2px;
+    font-size: 2.2rem;
+    margin-bottom: 25px;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #3b3b3b;
+    margin-bottom: 40px;
+}
+
+.description {
+    font-size: 2.2rem;
+    letter-spacing: 1.8px;
+    color: #555;
+    line-height: 1.8;
+}
+
+.book-cover {
+    position: relative;
+    flex-shrink: 0px;
+    width: 100%;
+}
+
+.book-cover img {
+    width: 150%;
+    height: auto;
+    max-width: none;
+    border-radius: 0px;
+}
+
+.play-button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: #fff;
+    color: #333;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    cursor: pointer;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
+}
+
+.play-button:hover {
+    background-color: #f28a8a;
+    color: #fff;
+}
